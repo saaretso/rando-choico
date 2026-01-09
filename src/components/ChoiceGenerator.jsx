@@ -16,7 +16,7 @@ export default function ChoiceGenerator() {
 
   return (
     <div className="container">
-      <h1>I can't decide please do it for me</h1>
+      <h1 className="headline">I can't decide please do it for me</h1>
 
       <textarea
         placeholder="Enter one option per line"
