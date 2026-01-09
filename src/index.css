@@ -5,6 +5,7 @@
 body {
   margin: 0;
   font-family: system-ui, sans-serif;
+  background-color: #1b4f06;
 }
 
 .container {
@@ -19,11 +20,25 @@ textarea {
   width: 100%;
   min-height: 150px;
   font-size: 1rem;
+  background-color: #596e51;
+  color: antiquewhite;
 }
 
 button {
   padding: 1rem;
   font-size: 1.1rem;
+  background-color: #699159;
+  color: antiquewhite;
+  border-radius: 12px;
+  border: none;
+}
+
+button:hover {
+  background-color: #5c804e;
+}
+
+button:active {
+  background-color: #729e60;
 }
 
 .result {
@@ -31,4 +46,10 @@ button {
   font-size: 1.5rem;
   font-weight: bold;
   text-align: center;
+  color: blanchedalmond;
+}
+
+.headline {
+  text-align: center;
+  color: blanchedalmond;
 }
