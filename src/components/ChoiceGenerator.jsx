@@ -16,7 +16,7 @@ export default function ChoiceGenerator() {
 
   return (
     <div className="container">
-      <h1>Random Choice Generator</h1>
+      <h1>I can't decide please do it for me</h1>
 
       <textarea
         placeholder="Enter one option per line"
@@ -24,7 +24,7 @@ export default function ChoiceGenerator() {
         onChange={e => setInput(e.target.value)}
       />
 
-      <button onClick={pickRandom}>Pls pick for me</button>
+      <button onClick={pickRandom}>Pls help</button>
 
       {result && <div className="result">{result}</div>}
     </div>
